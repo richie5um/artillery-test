@@ -1,0 +1,27 @@
+{
+	"config": {
+		"target": "https://nvzprd-sfc.ivanticloud.com",
+		"phases": [
+			{
+				"duration": 20,
+				"arrivalRate": 5
+			}
+		],
+		"defaults": {
+			"headers": {
+				"Content-Type": "application/json"
+			}
+		}
+	},
+	"scenarios": [
+		{
+			"flow": [
+				{
+					"get": {
+						"url": "/nvz-prd-unoeng.ivanticloud.com/account/login"
+					}
+				}
+			]
+		}
+	]
+}

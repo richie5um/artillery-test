@@ -1,0 +1,15 @@
+{
+  "name": "artillery-loginappv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "artillery run config/nvzprd.json -o results/nvzprd.results.json",
+    "report": "artillery report results/nvzprd.results.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "artillery": "^1.6.0-27"
+  }
+}
